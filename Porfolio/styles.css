@@ -1,0 +1,142 @@
+/*rgb(194, 158, 231)-Light purple
+ rgb(79, 194, 219);-cyan
+ rgb(48, 42, 54);-dark purple
+ rgb(28, 27, 27);-Dark Gray
+rgb(157, 214, 196);-light green */
+
+
+*{
+    color:azure;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Links~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+a:link{
+    
+    color:rgb(157, 214, 196);;
+    text-decoration: none;
+
+}
+a:visited{
+    
+    color:rgb(79, 194, 219);
+}
+a:hover{
+    color:azure;
+}
+.caselink { 
+    color: rgb(79, 194, 219);
+    background-color:rgb(28, 27, 27);
+    text-decoration: none;
+    padding:8px;
+    border-radius:4px;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Body~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+body{
+    border-style:dotted;
+    background-color:gray;
+    border-color:azure;
+    border-width: 6px;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Headers~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+h1 {
+    color: rgb(79, 194, 219);
+    font-style: italic;
+    font-size: xx-large;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color:rgb(48, 42, 54);
+    border-bottom:3px;
+    border-top:0px;
+    border-right:0px;
+    Border-left:0px;
+    border-color:rgb(79, 194, 219);
+    Border-style:dashed;
+   
+}
+h2{
+    color:rgb(157, 214, 196);
+    background-color:rgb(48, 42, 54);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h3{
+    color: rgb(79, 194, 219);
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+
+}
+header {
+    background-color: rgb(131, 117, 145);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Paragraphs~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.Project1 p {
+    text-align:center;
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Images~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+.Project1 img {
+    border-width:2px;
+    border-style: solid;
+    border-color: rgb(79, 194, 219);    width:300px; 
+    margin: 10%;
+    align-content: flex-start;
+}
+.Pill img {
+width: 100%;
+}
+.column {
+    flex:auto;
+    padding: 9px;
+  
+  }
+  .row {
+    display: flex;
+   }
+
+   
+   
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Sections~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+.Projects {
+    background-color: rgb(131, 117, 145);
+    
+  }
+.Project1 {
+    background-color: rgb(48, 42, 54);
+}
+.work{
+    background-color: rgb(131, 117, 145);
+}
+.work1{
+    background-color: rgb(48, 42, 54);
+}
+.education{
+    background-color: rgb(131, 117, 145);
+}
+.education1{
+    background-color: rgb(48, 42, 54);
+}
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~Footer~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+footer {
+background-color:rgb(28, 27, 27);
+font-size: smaller;
+text-align:left;
+}
+ul {
+    align-content: left;
+    text-align:left;
+    
+    
+}
